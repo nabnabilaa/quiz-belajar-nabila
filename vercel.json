@@ -8,16 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/public/academy_quiz.html"
-    },
-    {
       "src": "/api/(.*)",
       "dest": "/server.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
     }
   ]
 }
